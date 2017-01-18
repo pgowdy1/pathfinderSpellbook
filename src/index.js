@@ -91,15 +91,37 @@ function handleOneshotSpellbookRequest (intent, session, response) {
       speechOutput;
 
     if(spellToFind.error) {
-        rempromptText = "I cannot find that spell in the Spellbook. Try again "
+        //invalid spell. Send repromptText to card
+        repromptText = "I cannot find that spell in the Spellbook. Try again "
           + "or try a different spell.";
-
+        //invalid spell. Have Alexa tell user to try something else.
         speechOutput = "I'm sorry, I can't find that spell. ";
 
         response.ask(speechOutput.repromptText);
         return;
     }
 
-    //all slots filled. Move to final request
-    getFinalSpellbookResponse(spellToFind, response);
+    //All slots filled. Move to final request
+    getFinalSpellbookResponse(spellToFind, spellDescription, response);
+}
+
+function getFinalSpellbookResponse(spellToFind, spellDescription, response) {
+
+  //Issue the request, and respond to the user
+  makeSpellbookRequest(spellToFind, spellDescription, function spellBookResponseCallback(err, spellResponse) {
+    var speechOutput;
+
+    if(err) {
+      speechOutput = "Sorry, I'm having trouble accessing the Spellbook.";
+    } else {
+      speechOutput = spellDescription;
+    }
+
+    response.tellWithCard(speechOutput, spellToFind, speechOutput)
+
+  });
+}
+
+function makeSpellbookRequest(spellToFind, spellDescription, spellBookResponseCallback) {
+
 }
