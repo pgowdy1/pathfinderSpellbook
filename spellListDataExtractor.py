@@ -4,7 +4,7 @@ import re
 import pprint
 from pymongo import MongoClient
 
-def retrieveSpellsFromPaizo():
+def retrieveSpellNamesFromPaizo():
     session = requests.session()
 
     req = session.get('http://paizo.com/pathfinderRPG/prd/coreRulebook/spellLists.html')
@@ -30,6 +30,34 @@ def retrieveSpellsFromPaizo():
 
     LIST_OF_SPELLS.close()
 
+def retrieveSpellDescriptions():
+    session = requests.session()
+
+    req = session.get('http://paizo.com/pathfinderRPG/prd/coreRulebook/spellLists.html')
+    webpage = req.content
+    webpage = webpage.decode('utf-8')
+
+    soup = BeautifulSoup(webpage, "html5lib")
+
+    listOfDescriptions = soup.body.find_all("p")
+
+    for dirtyDescription in listOfDescriptions:
+        dirtyDescription.decode('utf-8')
+        cleanDescription = dirtyDescription.getText()
+        print cleanDescription
+
+    spellDescriptions = []
+    SPELL_DESCRIPTIONS = open("speechAssets/customSlotTypes/SPELL_DESCRIPTIONS.txt", "w")
+
+    for string in listOfDescriptions:
+        #print string
+        spellDescriptions.append(string.contents[0])
+
+    #for spellDescrip in spellDescriptions:
+        #SPELL_DESCRIPTIONS.write(spellDescrip+"\n\n")
+
+    SPELL_DESCRIPTIONS.close()
+
 def makeConnectionToDatabase():
     LIST_OF_SPELLS = open("speechAssets/customSlotTypes/LIST_OF_SPELLS.txt", "r")
 
@@ -46,6 +74,7 @@ def makeConnectionToDatabase():
     for spell in spellsInDatabase.find():
         pprint.pprint(spell)
 
-makeConnectionToDatabase()
+#makeConnectionToDatabase()
 
-#retrieveSpellsFromPaizo()
+#retrieveSpellNamesFromPaizo()
+retrieveSpellDescriptions()
