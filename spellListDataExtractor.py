@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 import re
 import pprint
+import json
 from pymongo import MongoClient
 
 def retrieveSpellNamesFromPaizo():
@@ -68,24 +69,32 @@ def makeSpellDescriptionsLowerCase():
 
     file.close()
 
-def makeConnectionToDatabase():
-    LIST_OF_SPELLS = open("speechAssets/customSlotTypes/LIST_OF_SPELLS.txt", "r")
+def convertDataToJavaScriptVar():
+    SPELL_DESCRIPTIONS_FILE = open("speechAssets/customSlotTypes/SPELL_DESCRIPTIONS.txt", "r")
 
-    client = MongoClient()
-    db = client.testCollection
+    spellList = SPELL_DESCRIPTIONS_FILE.readlines()
+    spellListWithDescription = []
 
-    spellsInDatabase = db.spellsInDatabase
+    SPELL_DESCRIPTIONS_FILE.close()
 
-    for line in LIST_OF_SPELLS:
-        post = {"spell": line,
-                "description": ""}
-        spellsInDatabase.insert_one(post)
+    for spell in spellList:
+        splitSpell = spell.partition(':')
+        spellListWithDescription.append(splitSpell)
 
-    for spell in spellsInDatabase.find():
-        pprint.pprint(spell)
+    data = []
 
-#makeConnectionToDatabase()
+    for spell in spellListWithDescription:
+        print("'" + spell[0] + "': " + spell[2].strip()+",\n")
+        data.append("'" + spell[0] + "': " + spell[2].strip()+",\n")
+
+    javaScriptSpellFile = open("speechAssets/customSlotTypes/SPELL_LIST.txt", "w")
+
+    for spell in data:
+        javaScriptSpellFile.write(spell)
+
+    javaScriptSpellFile.close()
 
 #retrieveSpellNamesFromPaizo()
 #retrieveSpellDescriptions()
 #makeSpellDescriptionsLowerCase()
+convertDataToJavaScriptVar()

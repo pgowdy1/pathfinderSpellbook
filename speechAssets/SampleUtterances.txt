@@ -1,0 +1,11 @@
+OneshotSpellIntent look up {Spell}
+OneshotSpellIntent get {Spell}
+OneshotSpellIntent tell me what {Spell} does
+OneshotSpellIntent find {Spell}
+OneshotSpellIntent how do I use {Spell}
+OneshotSpellIntent spellbook look up {Spell}
+OneshotSpellIntent spell book look up {Spell}
+OneshotSpellIntent spellbook get {Spell}
+OneshotSpellIntent spell book get {Spell}
+OneshotSpellIntent spellbook find {Spell}
+OneshotSpellIntent spell book find {Spell}

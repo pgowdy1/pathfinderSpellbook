@@ -61,6 +61,20 @@ Spellbook.prototype.eventHandlers.onSessionEnded = function(sessionEndedRequest,
 Spellbook.prototype.intentHandlers = {
     "OneshotSpellbook": function(intent, session, response) {
         handleOneshotSpellbookRequest(intent, session, resonse);
+    },
+
+    "AMAZON.HelpIntent": function (intent, session, response) {
+        handleHelpRequest(response);
+    },
+
+    "AMAZON.StopIntent": function (intent, session, response) {
+        var speechOutput = "Goodbye";
+        response.tell(speechOutput);
+    },
+
+    "AMAZON.CancelIntent": function (intent, session, response) {
+        var speechOutput = "Goodbye";
+        response.tell(speechOutput);
     }
 };
 
@@ -101,6 +115,16 @@ function handleOneshotSpellbookRequest (intent, session, response) {
         return;
     }
 
+    var spellDescription = getSpellDescription(spellToFind);
+
+    if(!spellDescription) {
+      //Can't find spell description
+      speechOutput = "I'm sorry, that spell couldn't be found.";
+      repromptText = "Please try another spell.";
+      response.ask(speechOutput, repromptText);
+      return;
+    }
+
     //All slots filled. Move to final request
     getFinalSpellbookResponse(spellToFind, spellDescription, response);
 }
@@ -120,6 +144,47 @@ function getFinalSpellbookResponse(spellToFind, spellDescription, response) {
     response.tellWithCard(speechOutput, spellToFind, speechOutput)
 
   });
+}
+
+function getSpellFromIntent(intent, assignDefault) {
+
+  var spellSlot = intent.slots.Spell;
+
+  if(!spellSlot || !spellSlot.value) {
+    if(!assignDefault) {
+      return {
+        error: true
+      }
+    } else {
+        return {
+          spell: 'magic missile',
+          description: '1d4+1 damage; +1 missile per two levels above 1st (max 5).'
+        }
+    }
+  } else {
+
+      var spellName = spellSlot.value;
+      if(spellName) {
+        return {
+          name : spellName
+        } else {
+            return {
+              error: true,
+              name : spellName
+            }
+        }
+      }
+
+  }
+}
+
+function getSpellDescription(spellName) {
+
+  var spellDescriptionSlot = intent.slots.Description;
+
+  var spellName = spellDescription.value;
+
+
 }
 
 function makeSpellbookRequest(spellToFind, spellDescription, spellBookResponseCallback) {
