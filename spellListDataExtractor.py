@@ -49,6 +49,25 @@ def retrieveSpellDescriptions():
 
     SPELL_DESCRIPTIONS.close()
 
+def makeSpellDescriptionsLowerCase():
+    updatedSpellDescriptions = []
+
+    file = open("speechAssets/customSlotTypes/SPELL_DESCRIPTIONS.txt", "r+")
+    SPELL_DESCRIPTIONS = file.readlines()
+
+    for upperCaseDescrip in SPELL_DESCRIPTIONS:
+        lowerCaseDescrip = upperCaseDescrip.lower()
+        print lowerCaseDescrip
+        updatedSpellDescriptions.append(lowerCaseDescrip)
+
+    file.seek(0)
+    file.truncate()
+
+    for spellDescripToWrite in updatedSpellDescriptions:
+        file.write(spellDescripToWrite)
+
+    file.close()
+
 def makeConnectionToDatabase():
     LIST_OF_SPELLS = open("speechAssets/customSlotTypes/LIST_OF_SPELLS.txt", "r")
 
@@ -67,5 +86,6 @@ def makeConnectionToDatabase():
 
 #makeConnectionToDatabase()
 
-retrieveSpellNamesFromPaizo()
-retrieveSpellDescriptions()
+#retrieveSpellNamesFromPaizo()
+#retrieveSpellDescriptions()
+#makeSpellDescriptionsLowerCase()

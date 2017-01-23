@@ -93,7 +93,7 @@ function handleOneshotSpellbookRequest (intent, session, response) {
     if(spellToFind.error) {
         //invalid spell. Send repromptText to card
         repromptText = "I cannot find that spell in the Spellbook. Try again "
-          + "or try a different spell.";
+          + "or try a different spell. ";
         //invalid spell. Have Alexa tell user to try something else.
         speechOutput = "I'm sorry, I can't find that spell. ";
 
