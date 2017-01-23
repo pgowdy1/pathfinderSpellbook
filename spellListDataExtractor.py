@@ -41,20 +41,11 @@ def retrieveSpellDescriptions():
 
     listOfDescriptions = soup.body.find_all("p")
 
-    for dirtyDescription in listOfDescriptions:
-        dirtyDescription.decode('utf-8')
-        cleanDescription = dirtyDescription.getText()
-        print cleanDescription
-
-    spellDescriptions = []
     SPELL_DESCRIPTIONS = open("speechAssets/customSlotTypes/SPELL_DESCRIPTIONS.txt", "w")
 
-    for string in listOfDescriptions:
-        #print string
-        spellDescriptions.append(string.contents[0])
-
-    #for spellDescrip in spellDescriptions:
-        #SPELL_DESCRIPTIONS.write(spellDescrip+"\n\n")
+    for dirtyDescription in listOfDescriptions:
+        cleanDescription = dirtyDescription.getText().encode("utf-8")
+        SPELL_DESCRIPTIONS.write(cleanDescription+"\n")
 
     SPELL_DESCRIPTIONS.close()
 
@@ -76,5 +67,5 @@ def makeConnectionToDatabase():
 
 #makeConnectionToDatabase()
 
-#retrieveSpellNamesFromPaizo()
+retrieveSpellNamesFromPaizo()
 retrieveSpellDescriptions()
