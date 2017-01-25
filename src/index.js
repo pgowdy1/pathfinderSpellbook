@@ -115,7 +115,7 @@ function handleOneshotSpellbookRequest (intent, session, response) {
         return;
     }
 
-    var spellDescription = getSpellDescription(spellToFind);
+    //var spellDescription = getSpellDescription(spellToFind);
 
     if(!spellDescription) {
       //Can't find spell description
@@ -169,7 +169,7 @@ function getSpellFromIntent(intent, assignDefault) {
           name : spellName
         } else {
             return {
-              error: true,
+              error : true,
               name : spellName
             }
         }
@@ -178,10 +178,7 @@ function getSpellFromIntent(intent, assignDefault) {
   }
 }
 
-function getSpellDescription(spellName) {
-
-  var spellDescription = spell.description;
-  return spellDescription;
+function getSpellDescription(spellToFind) {
 
 }
 

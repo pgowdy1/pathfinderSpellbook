@@ -5,11 +5,11 @@
       "slots": [
         {
           "name": "Spell",
-          "type": "SPELL_LIST_JSON"
+          "type": "LIST_OF_SPELLS"
         },
         {
           "name": "Description",
-          "type": "SPELL_LIST_JSON"
+          "type": "SPELL_DESCRIPTIONS"
         }
       ]
     },

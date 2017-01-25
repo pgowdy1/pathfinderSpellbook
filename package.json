@@ -4,7 +4,7 @@
   "description": "an alexa skill that looks up spells in the pathfinder core rule book",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "start": "node index.js"
   },
   "repository": {
@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/pgowdy1/pathfinderSpellbook"
   },
-  "homepage": "https://github.com/pgowdy1/pathfinderSpellbook#readme"
+  "homepage": "https://github.com/pgowdy1/pathfinderSpellbook#readme",
+  "dependencies": {
+    "alexa-app": "^2.4.0",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "lodash": "^4.17.4",
+    "mocha": "^3.2.0",
+    "request-promise": "^4.1.1"
+  }
 }
