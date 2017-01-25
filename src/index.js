@@ -180,10 +180,8 @@ function getSpellFromIntent(intent, assignDefault) {
 
 function getSpellDescription(spellName) {
 
-  var spellDescriptionSlot = intent.slots.Description;
-
-  var spellName = spellDescription.value;
-
+  var spellDescription = spell.description;
+  return spellDescription;
 
 }
 
