@@ -6,10 +6,6 @@
         {
           "name": "Spell",
           "type": "LIST_OF_SPELLS"
-        },
-        {
-          "name": "Description",
-          "type": "SPELL_DESCRIPTIONS"
         }
       ]
     },

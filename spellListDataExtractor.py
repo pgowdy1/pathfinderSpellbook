@@ -18,16 +18,19 @@ def retrieveSpellNamesFromPaizo():
     listOfSpells = soup.body.find_all("a", href=re.compile('^spells/*'))
 
     spellNames = []
-    LIST_OF_SPELLS = open("speechAssets/customSlotTypes/LIST_OF_SPELLS.txt", "w")
+    LIST_OF_SPELLS = open("LIST_OF_SPELLS.txt", "w")
 
     for string in listOfSpells:
         spellNames.append(string.contents[0])
 
-    for spell in spellNames:
-        if isinstance(spell, basestring) == True:
-            spell = spell.lower()
-            LIST_OF_SPELLS.write(spell+"\n")
+    spellsAlreadySeen = set()
 
+    for spell in spellNames:
+        if spell not in spellsAlreadySeen:
+            if isinstance(spell, basestring) == True:
+                spell = spell.lower()
+                LIST_OF_SPELLS.write(spell+"\n")
+                spellsAlreadySeen.add(spell)
 
     LIST_OF_SPELLS.close()
 
@@ -70,7 +73,7 @@ def makeSpellDescriptionsLowerCase():
     file.close()
 
 def convertDataToJavaScriptVar():
-    SPELL_DESCRIPTIONS_FILE = open("speechAssets/customSlotTypes/SPELL_DESCRIPTIONS.txt", "r")
+    SPELL_DESCRIPTIONS_FILE = open("SPELL_DESCRIPTIONS.txt", "r")
 
     spellList = SPELL_DESCRIPTIONS_FILE.readlines()
     spellListWithDescription = []
@@ -84,17 +87,17 @@ def convertDataToJavaScriptVar():
     data = []
 
     for spell in spellListWithDescription:
-        print("'" + spell[0] + "': " + spell[2].strip()+",\n")
-        data.append("'" + spell[0] + "': " + spell[2].strip()+",\n")
+        print("'" + spell[0] + "': " + "'" + spell[2].strip() + "'," + "\n")
+        data.append("'" + spell[0] + "': " + "'" + spell[2].strip() + "'," + "\n")
 
-    javaScriptSpellFile = open("speechAssets/customSlotTypes/SPELL_LIST.txt", "w")
+    javaScriptSpellFile = open("SPELL_LIST.txt", "w")
 
     for spell in data:
         javaScriptSpellFile.write(spell)
 
     javaScriptSpellFile.close()
 
-#retrieveSpellNamesFromPaizo()
+retrieveSpellNamesFromPaizo()
 #retrieveSpellDescriptions()
 #makeSpellDescriptionsLowerCase()
-convertDataToJavaScriptVar()
+#convertDataToJavaScriptVar()

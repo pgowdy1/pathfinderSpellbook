@@ -64,7 +64,6 @@ hypnotic pattern
 invisibility
 locate object
 minor image
-silent image
 mirror image
 misdirection
 pyrotechnics
@@ -86,7 +85,6 @@ crushing despair
 cure serious wounds
 daylight
 deep slumber
-sleep
 dispel magic
 displacement
 fear
@@ -98,7 +96,6 @@ haste
 illusory script
 invisibility sphere
 major image
-silent image
 phantom steed
 remove curse
 scrying
@@ -118,9 +115,7 @@ dominate person
 freedom of movement
 hallucinatory terrain
 hold monster
-hold person
 invisibility, greater
-invisibility
 legend lore
 locate creature
 modify memory
@@ -135,46 +130,36 @@ summon monster iv
 zone of silence
 cure light wounds, mass
 dispel magic, greater
-dispel magic
 dream
 false vision
 heroism, greater
 mind fog
 mirage arcana
-hallucinatory terrain
 mislead
 nightmare
 persistent image
-major image
 seeming
 shadow evocation
 shadow walk
 song of discord
 suggestion, mass
-suggestion
 summon monster v
 analyze dweomer
 animate objects
 cat's grace, mass
-cat's grace
 charm monster, mass
-charm monster
 cure moderate wounds, mass
 eagle's splendor, mass
-eagle's splendor
 eyebite
 find the path
 fox's cunning, mass
-fox's cunning
 geas/quest
 heroes' feast
 irresistible dance
 permanent image
 programmed image
-major image
 project image
 scrying, greater
-scrying
 shout, greater
 summon monster vi
 sympathetic vibration
@@ -237,7 +222,6 @@ inflict moderate wounds
 make whole
 owl's wisdom
 remove paralysis
-slow
 resist energy
 restoration, lesser
 shatter
@@ -268,7 +252,6 @@ magic circle against chaos/evil/good/law
 magic vestment
 meld into stone
 obscure object
-scrying
 prayer
 protection from energy
 remove blindness/deafness
@@ -312,7 +295,6 @@ atonement
 break enchantment
 breath of life
 command, greater
-command
 commune
 cure light wounds, mass
 dispel chaos/evil/good/law
@@ -338,27 +320,21 @@ animate objects
 antilife shell
 banishment
 bear's endurance, mass
-bear's endurance
 blade barrier
 bull's strength, mass
-bull's strength
 create undead
 cure moderate wounds, mass
 dispel magic, greater
-dispel magic
 eagle's splendor, mass
-eagle's splendor
 find the path
 forbiddance
 geas/quest
 glyph of warding, greater
-glyph of warding
 harm
 heal
 heroes' feast
 inflict moderate wounds, mass
 owl's wisdom, mass
-owl's wisdom
 planar ally
 lesser planar ally
 summon monster vi
@@ -379,10 +355,8 @@ refuge
 regenerate
 repulsion
 restoration, greater
-restoration
 resurrection
 scrying, greater
-scrying
 summon monster vii
 symbol of stunning
 symbol of weakness
@@ -398,10 +372,8 @@ fire storm
 holy aura
 inflict critical wounds, mass
 planar ally, greater
-lesser planar ally
 shield of law
 spell immunity, greater
-spell immunity
 summon monster viii
 symbol of death
 symbol of insanity
@@ -411,15 +383,12 @@ energy drain
 etherealness
 gate
 heal, mass
-heal
 implosion
 miracle
 soul bind
-resurrection
 storm of vengeance
 summon monster ix
 true resurrection
-resurrection
 create water
 detect magic
 detect poison
@@ -441,7 +410,6 @@ detect snares and pits
 endure elements
 entangle
 faerie fire
-blur
 goodberry
 hide from animals
 jump
@@ -524,7 +492,6 @@ atonement
 awaken
 baleful polymorph
 call lightning storm
-call lightning
 commune with nature
 control winds
 cure critical wounds
@@ -541,21 +508,16 @@ wall of fire
 wall of thorns
 antilife shell
 bear's endurance, mass
-bear's endurance
 bull's strength, mass
-bull's strength
 cat's grace, mass
-cat's grace
 cure light wounds, mass
 dispel magic, greater
-dispel magic
 find the path
 fire seeds
 ironwood
 liveoak
 move earth
 owl's wisdom, mass
-owl's wisdom
 repel wood
 spellstaff
 stone tell
@@ -570,7 +532,6 @@ cure moderate wounds, mass
 fire storm
 heal
 scrying, greater
-scrying
 summon nature's ally vii
 sunbeam
 transmute metal to wood
@@ -617,7 +578,6 @@ delay poison
 eagle's splendor
 owl's wisdom
 remove paralysis
-slow
 resist energy
 shield other
 undetectable alignment
@@ -627,7 +587,6 @@ daylight
 discern lies
 dispel magic
 heal mount
-heal
 magic circle against chaos/evil
 protection from chaos
 magic weapon, greater
@@ -692,7 +651,6 @@ commune with nature
 cure serious wounds
 freedom of movement
 nondetection
-scrying
 summon nature's ally iv
 tree stride
 resistance
@@ -757,7 +715,6 @@ magic weapon
 reduce person
 arcane lock
 obscure object
-scrying
 protection from arrows
 resist energy
 acid arrow
@@ -783,7 +740,6 @@ hypnotic pattern
 invisibility
 magic mouth
 minor image
-silent image
 mirror image
 misdirection
 phantom trap
@@ -812,7 +768,6 @@ dispel magic
 explosive runes
 magic circle against chaos/evil/good/law
 nondetection
-scrying
 protection from energy
 phantom steed
 sepia snake sigil
@@ -823,7 +778,6 @@ arcane sight
 clairaudience/clairvoyance
 tongues
 deep slumber
-sleep
 heroism
 hold person
 rage
@@ -837,7 +791,6 @@ displacement
 illusory script
 invisibility sphere
 major image
-silent image
 gentle repose
 halt undead
 ray of exhaustion
@@ -882,7 +835,6 @@ wall of ice
 hallucinatory terrain
 illusory wall
 invisibility, greater
-invisibility
 phantasmal killer
 rainbow pattern
 shadow conjuration
@@ -896,16 +848,13 @@ elemental body i
 enlarge person, mass
 mnemonic enhancer
 reduce person, mass
-reduce person
 stone shape
 break enchantment
 dismissal
 mage's private sanctum
-scrying
 cloudkill
 mage's faithful hound
 major creation
-minor creation
 planar binding, lesser
 secret chest
 summon monster v
@@ -917,7 +866,6 @@ telepathic bond
 dominate person
 feeblemind
 hold monster
-hold person
 mind fog
 symbol of sleep
 cone of cold
@@ -926,12 +874,9 @@ sending
 wall of force
 dream
 false vision
-scrying
 mirage arcana
-hallucinatory terrain
 nightmare
 persistent image
-major image
 seeming
 shadow evocation
 blight
@@ -953,7 +898,6 @@ transmute rock to mud
 permanency
 antimagic field
 dispel magic, greater
-dispel magic
 globe of invulnerability
 lesser globe of invulnerability
 guards and wards
@@ -969,7 +913,6 @@ true seeing
 geas/quest
 heroism, greater
 suggestion, mass
-suggestion
 symbol of persuasion
 chain lightning
 contingency
@@ -978,7 +921,6 @@ freezing sphere
 mislead
 permanent image
 programmed image
-major image
 shadow walk
 veil
 circle of death
@@ -987,31 +929,24 @@ eyebite
 symbol of fear
 undeath to death
 bear's endurance, mass
-bear's endurance
 beast shape iv
 bull's strength, mass
-bull's strength
 cat's grace, mass
-cat's grace
 control water
 disintegrate
 eagle's splendor, mass
-eagle's splendor
 elemental body iii
 flesh to stone
 form of the dragon i
 fox's cunning, mass
-fox's cunning
 mage's lucubration
 move earth
 owl's wisdom, mass
-owl's wisdom
 plant shape ii
 stone to flesh
 transformation
 banishment
 sequester
-scrying
 spell turning
 instant summons
 mage's magnificent mansion
@@ -1019,19 +954,12 @@ phase door
 plane shift
 summon monster vii
 teleport, greater
-teleport
 teleport object
-teleport
 arcane sight, greater
-arcane sight
 scrying, greater
-scrying
 vision
-legend lore
 hold person, mass
-hold person
 insanity
-confusion
 power word blind
 symbol of stunning
 delayed blast fireball
@@ -1040,10 +968,8 @@ grasping hand
 mage's sword
 prismatic spray
 invisibility, mass
-invisibility
 project image
 shadow conjuration, greater
-shadow conjuration
 simulacrum
 control undead
 finger of death
@@ -1061,27 +987,20 @@ statue
 limited wish
 dimensional lock
 mind blank
-scrying
 prismatic wall
 protection from spells
 incendiary cloud
 maze
 planar binding, greater
-lesser planar binding
 summon monster viii
 trap the soul
 discern location
 moment of prescience
 prying eyes, greater
-prying eyes
-true seeing
 antipathy
 binding
 charm monster, mass
-charm monster
 demand
-sending
-suggestion
 irresistible dance
 power word stun
 symbol of insanity
@@ -1091,12 +1010,9 @@ polar ray
 shout, greater
 sunburst
 telekinetic sphere
-resilient sphere
 scintillating pattern
 screen
-scrying
 shadow evocation, greater
-shadow evocation
 clone
 create greater undead
 horrid wilting
@@ -1111,30 +1027,23 @@ imprisonment
 imprisonment
 mage's disjunction
 prismatic sphere
-prismatic wall
 gate
 refuge
 summon monster ix
 teleportation circle
 foresight
 dominate monster
-dominate person
 hold monster, mass
-hold monster
 power word kill
 crushing hand
 meteor swarm
 shades
-shadow conjuration
 weird
-phantasmal killer
 astral projection
 energy drain
 soul bind
-resurrection
 wail of the banshee
 etherealness
 shapechange
 time stop
 wish
-limited wish
