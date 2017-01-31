@@ -47,7 +47,7 @@ Spellbook.prototype.eventHandlers.onLaunch = function(launchRequest, session, re
   console.log("launchRequest requestID :" + launchRequest.requestId
     + ", sessionId: " + session.SessionId);
   handleWelcomeRequest(response);
-}
+};
 
 Spellbook.prototype.eventHandlers.onSessionEnded = function(sessionEndedRequest, session) {
   console.log("OnSessionEnded requestId: " + sessionEndedRequest.requestId
