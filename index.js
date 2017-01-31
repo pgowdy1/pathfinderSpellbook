@@ -23,13 +23,13 @@
 */
 
 
-var APP_ID = undefined; //TODO replace with 'amzn1.echo-sdk-ams.app.[MY UNIQUE ID]'
+var APP_ID = "amzn1.echo-sdk-ams.app.f95c5360-585f-463c-b41d-1975e84609fc"; // replace with 'amzn1.echo-sdk-ams.app.[MY UNIQUE ID]'
 
 var AlexaSkill = require('./AlexaSkill');
 
 var Spellbook = function() {
   AlexaSkill.call(this, APP_ID)
-}
+};
 
 //Extend AlexaSkill
 Spellbook.prototype = Object.create(AlexaSkill.prototype);
@@ -1100,7 +1100,7 @@ var SPELL_DESCRIPTIONS = {
   'shapechange': 'transforms you into certain creatures, and lets you change forms once per round.',
   'time stop': 'you act freely for 1d4+1 rounds.',
   'wish': 'as limited wish, but with fewer limits.'
-}
+};
 
 Spellbook.prototype.intentHandlers = {
     "OneshotSpellbook": function(intent, session, response) {
@@ -1127,7 +1127,7 @@ function handleWelcomeRequest(response) {
     speechOutput = {
       speech: "<speak>Welcome to the Pathfinder Spellbook. "
         + whichSpellPrompt
-        + <"/speak">,
+        + "</speak>",
       type: AlexaSkill.speechOutputType.SSML
     },
     repromptOutput = {
@@ -1211,13 +1211,15 @@ function getSpellFromIntent(intent, assignDefault) {
       if(spellName) {
         return {
           name: spellName
-        } else {
-            return {
-              error: true,
-              name: spellName
-            }
         }
       }
+      else {
+        return {
+          error: true,
+          name: spellName
+        }
+      }
+
 
   }
 }

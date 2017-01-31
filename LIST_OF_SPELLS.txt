@@ -37,7 +37,6 @@ obscure object
 scrying
 remove fear
 silent image
-sleep
 summon monster i
 undetectable alignment
 unseen servant
@@ -98,7 +97,6 @@ invisibility sphere
 major image
 phantom steed
 remove curse
-scrying
 sculpt sound
 secret page
 see invisibility
@@ -166,23 +164,15 @@ sympathetic vibration
 veil
 bleed
 create water
-detect magic
 detect poison
 guidance
-light
-mending
 purify food and drink
-read magic
-resistance
 stabilize
 virtue
 bane
 bless
 bless water
-cause fear
 command
-comprehend languages
-cure light wounds
 curse water
 deathwatch
 detect chaos/evil/good/law
@@ -197,106 +187,76 @@ magic stone
 magic weapon
 obscuring mist
 protection from chaos/evil/good/law
-remove fear
 sanctuary
 shield of faith
-summon monster i
 aid
 align weapon
 augury
 bear's endurance
 bull's strength
-calm emotions
 consecrate
-cure moderate wounds
-darkness
 death knell
-delay poison
 desecrate
-eagle's splendor
-enthrall
 find traps
 gentle repose
-hold person
 inflict moderate wounds
 make whole
 owl's wisdom
 remove paralysis
 resist energy
 restoration, lesser
-shatter
 shield other
-silence
-sound burst
 spiritual weapon
 status
-summon monster ii
-undetectable alignment
 zone of truth
 animate dead
 bestow curse
-blindness/deafness
 contagion
 continual flame
 create food and water
-cure serious wounds
-daylight
 deeper darkness
-dispel magic
 glyph of warding
 helping hand
 inflict serious wounds
 invisibility purge
-locate object
 magic circle against chaos/evil/good/law
 magic vestment
 meld into stone
-obscure object
 prayer
 protection from energy
 remove blindness/deafness
-remove curse
 remove disease
 searing light
 speak with dead
 stone shape
-summon monster iii
 water breathing
 water walk
 wind wall
 air walk
 chaos hammer
 control water
-cure critical wounds
 death ward
 dimensional anchor
 discern lies
 dismissal
 divination
 divine power
-freedom of movement
 giant vermin
 holy smite
 imbue with spell ability
 inflict critical wounds
 magic weapon, greater
-neutralize poison
 order's wrath
 planar ally, lesser
 poison
-repel vermin
 restoration
 sending
 spell immunity
-summon monster iv
-tongues
 unholy blight
 atonement
-break enchantment
 breath of life
 command, greater
 commune
-cure light wounds, mass
 dispel chaos/evil/good/law
 disrupting weapon
 flame strike
@@ -307,37 +267,27 @@ mark of justice
 plane shift
 raise dead
 righteous might
-scrying
 slay living
 spell resistance
-summon monster v
 symbol of pain
 symbol of sleep
 true seeing
 unhallow
 wall of stone
-animate objects
 antilife shell
 banishment
 bear's endurance, mass
 blade barrier
 bull's strength, mass
 create undead
-cure moderate wounds, mass
-dispel magic, greater
-eagle's splendor, mass
-find the path
 forbiddance
-geas/quest
 glyph of warding, greater
 harm
 heal
-heroes' feast
 inflict moderate wounds, mass
 owl's wisdom, mass
 planar ally
 lesser planar ally
-summon monster vi
 symbol of fear
 symbol of persuasion
 undeath to death
@@ -356,7 +306,6 @@ regenerate
 repulsion
 restoration, greater
 resurrection
-scrying, greater
 summon monster vii
 symbol of stunning
 symbol of weakness
@@ -389,25 +338,10 @@ soul bind
 storm of vengeance
 summon monster ix
 true resurrection
-create water
-detect magic
-detect poison
-flare
-guidance
-know direction
-light
-mending
-purify food and drink
-read magic
-resistance
-stabilize
-virtue
 calm animals
 charm animal
-cure light wounds
 detect animals or plants
 detect snares and pits
-endure elements
 entangle
 faerie fire
 goodberry
@@ -415,21 +349,12 @@ hide from animals
 jump
 longstrider
 magic fang
-magic stone
-obscuring mist
 pass without trace
 produce flame
 shillelagh
-speak with animals
 summon nature's ally i
-animal messenger
-animal trance
 barkskin
-bear's endurance
-bull's strength
-cat's grace
 chill metal
-delay poison
 fire trap
 flame blade
 flaming sphere
@@ -437,454 +362,162 @@ fog cloud
 gust of wind
 heat metal
 hold animal
-owl's wisdom
 reduce animal
-resist energy
-restoration, lesser
 soften earth and stone
 spider climb
 summon nature's ally ii
-summon swarm
 tree shape
 warp wood
 wood shape
 call lightning
-contagion
-cure moderate wounds
-daylight
 diminish plants
 dominate animal
 magic fang, greater
-meld into stone
-neutralize poison
 plant growth
-poison
-protection from energy
 quench
-remove disease
 sleet storm
 snare
-speak with plants
 spike growth
-stone shape
 summon nature's ally iii
-water breathing
-wind wall
-air walk
 antiplant shell
 blight
 command plants
-control water
-cure serious wounds
-dispel magic
-flame strike
-freedom of movement
-giant vermin
 ice storm
 reincarnate
-repel vermin
 rusting grasp
-scrying
 spike stones
 summon nature's ally iv
 animal growth
-atonement
 awaken
 baleful polymorph
 call lightning storm
 commune with nature
 control winds
-cure critical wounds
-death ward
-hallow
-insect plague
 stoneskin
 summon nature's ally v
 transmute mud to rock
 transmute rock to mud
 tree stride
-unhallow
 wall of fire
 wall of thorns
-antilife shell
-bear's endurance, mass
-bull's strength, mass
-cat's grace, mass
-cure light wounds, mass
-dispel magic, greater
-find the path
 fire seeds
 ironwood
 liveoak
 move earth
-owl's wisdom, mass
 repel wood
 spellstaff
 stone tell
 summon nature's ally vi
 transport via plants
-wall of stone
 animate plants
 changestaff
-control weather
 creeping doom
-cure moderate wounds, mass
-fire storm
-heal
-scrying, greater
 summon nature's ally vii
 sunbeam
 transmute metal to wood
-true seeing
-wind walk
 animal shapes
 control plants
-cure serious wounds, mass
-earthquake
 finger of death
 repel metal or stone
 reverse gravity
 summon nature's ally viii
 sunburst
 whirlwind
-word of recall
 antipathy
-cure critical wounds, mass
 elemental swarm
 foresight
-regenerate
 shambler
 shapechange
-storm of vengeance
 summon nature's ally ix
 sympathy
-bless
-bless water
 bless weapon
-create water
-cure light wounds
-detect poison
-detect undead
-divine favor
-endure elements
-magic weapon
 protection from chaos/evil
-read magic
-resistance
-restoration, lesser
-virtue
-bull's strength
-delay poison
-eagle's splendor
-owl's wisdom
-remove paralysis
-resist energy
-shield other
-undetectable alignment
-zone of truth
-cure moderate wounds
-daylight
-discern lies
-dispel magic
 heal mount
 magic circle against chaos/evil
 protection from chaos
-magic weapon, greater
-prayer
-remove blindness/deafness
-remove curse
-break enchantment
-cure serious wounds
-death ward
 dispel chaos
 dispel evil
 holy sword
-mark of justice
-neutralize poison
-restoration
-alarm
-animal messenger
-calm animals
-charm animal
-delay poison
-detect animals or plants
-detect poison
-detect snares and pits
-endure elements
-entangle
-hide from animals
-jump
-longstrider
-magic fang
-pass without trace
-read magic
-resist energy
-speak with animals
-summon nature's ally i
-barkskin
-bear's endurance
-cat's grace
-cure light wounds
-hold animal
-owl's wisdom
-protection from energy
-snare
-speak with plants
-spike growth
-summon nature's ally ii
-wind wall
-command plants
-cure moderate wounds
 darkvision
-diminish plants
-magic fang, greater
-neutralize poison
-plant growth
-reduce animal
-remove disease
-repel vermin
-summon nature's ally iii
-tree shape
-water walk
-animal growth
-commune with nature
-cure serious wounds
-freedom of movement
 nondetection
-summon nature's ally iv
-tree stride
-resistance
 acid splash
-detect magic
-detect poison
-read magic
-daze
-dancing lights
-flare
-light
 ray of frost
-ghost sound
-bleed
 disrupt undead
 touch of fatigue
-mage hand
-mending
-message
-open/close
 arcane mark
-prestidigitation
-alarm
-endure elements
 hold portal
-protection from chaos/evil/good/law
 shield
 magic missile
-grease
 mage armor
 mount
-obscuring mist
-summon monster i
-unseen servant
-comprehend languages
-detect secret doors
-detect undead
-identify
 true strike
-charm person
-hypnotism
-sleep
 burning hands
 floating disk
-magic missile
 shocking grasp
 color spray
-disguise self
-magic aura
-silent image
-ventriloquism
-cause fear
 chill touch
 ray of enfeeblement
-animate rope
 enlarge person
-erase
-expeditious retreat
-feather fall
-jump
-magic weapon
 reduce person
 arcane lock
-obscure object
 protection from arrows
-resist energy
 acid arrow
-fog cloud
-glitterdust
-summon monster ii
-summon swarm
 web
-detect thoughts
-locate object
-see invisibility
-daze monster
-hideous laughter
 touch of idiocy
-continual flame
-darkness
-flaming sphere
-gust of wind
 scorching ray
-shatter
-blur
-hypnotic pattern
-invisibility
-magic mouth
-minor image
-mirror image
-misdirection
 phantom trap
-blindness/deafness
 command undead
 false life
 ghoul touch
-scare
 spectral hand
-alter self
-bear's endurance
-bull's strength
-cat's grace
-darkvision
-eagle's splendor
-fox's cunning
 knock
 levitate
-make whole
-owl's wisdom
-pyrotechnics
 rope trick
-spider climb
-whispering wind
-dispel magic
 explosive runes
-magic circle against chaos/evil/good/law
-nondetection
-protection from energy
-phantom steed
-sepia snake sigil
-sleet storm
 stinking cloud
-summon monster iii
 arcane sight
-clairaudience/clairvoyance
-tongues
-deep slumber
-heroism
-hold person
-rage
-suggestion
-daylight
 fireball
 lightning bolt
-tiny hut
-wind wall
-displacement
-illusory script
-invisibility sphere
-major image
-gentle repose
 halt undead
 ray of exhaustion
 vampiric touch
 beast shape i
-blink
 flame arrow
 fly
-gaseous form
-haste
 keen edge
-magic weapon, greater
-secret page
 shrink item
-slow
-water breathing
-dimensional anchor
-fire trap
 globe of invulnerability, lesser
-remove curse
-stoneskin
 black tentacles
-dimension door
 minor creation
-secure shelter
 solid fog
-summon monster iv
 arcane eye
-detect scrying
-locate creature
-scrying
-charm monster
-confusion
-crushing despair
-geas, lesser
 fire shield
-ice storm
 resilient sphere
-shout
-wall of fire
 wall of ice
-hallucinatory terrain
 illusory wall
-invisibility, greater
 phantasmal killer
-rainbow pattern
-shadow conjuration
-animate dead
-bestow curse
-contagion
 enervation
-fear
 beast shape ii
 elemental body i
 enlarge person, mass
 mnemonic enhancer
 reduce person, mass
-stone shape
-break enchantment
-dismissal
 mage's private sanctum
 cloudkill
 mage's faithful hound
 major creation
 planar binding, lesser
 secret chest
-summon monster v
 teleport
-wall of stone
 contact other plane
 prying eyes
 telepathic bond
-dominate person
 feeblemind
-hold monster
-mind fog
-symbol of sleep
 cone of cold
 interposing hand
-sending
 wall of force
-dream
-false vision
-mirage arcana
-nightmare
-persistent image
-seeming
-shadow evocation
-blight
 magic jar
-symbol of pain
 waves of fatigue
-animal growth
-baleful polymorph
 beast shape iii
 elemental body ii
 fabricate
@@ -893,130 +526,77 @@ passwall
 plant shape i
 polymorph
 telekinesis
-transmute mud to rock
-transmute rock to mud
 permanency
-antimagic field
-dispel magic, greater
 globe of invulnerability
 lesser globe of invulnerability
 guards and wards
-repulsion
 acid fog
 planar binding
 lesser planar binding
-summon monster vi
 wall of iron
-analyze dweomer
-legend lore
-true seeing
-geas/quest
-heroism, greater
-suggestion, mass
-symbol of persuasion
 chain lightning
 contingency
 forceful hand
 freezing sphere
-mislead
-permanent image
-programmed image
-shadow walk
-veil
 circle of death
-create undead
-eyebite
-symbol of fear
-undeath to death
-bear's endurance, mass
 beast shape iv
-bull's strength, mass
-cat's grace, mass
-control water
 disintegrate
-eagle's splendor, mass
 elemental body iii
 flesh to stone
 form of the dragon i
-fox's cunning, mass
 mage's lucubration
-move earth
-owl's wisdom, mass
 plant shape ii
 stone to flesh
 transformation
-banishment
 sequester
 spell turning
 instant summons
 mage's magnificent mansion
 phase door
-plane shift
-summon monster vii
 teleport, greater
 teleport object
 arcane sight, greater
-scrying, greater
 vision
 hold person, mass
 insanity
 power word blind
-symbol of stunning
 delayed blast fireball
 forcecage
 grasping hand
 mage's sword
 prismatic spray
 invisibility, mass
-project image
 shadow conjuration, greater
 simulacrum
 control undead
-finger of death
-symbol of weakness
 waves of exhaustion
-control weather
 elemental body iv
-ethereal jaunt
 form of the dragon ii
 giant form i
 plant shape iii
 polymorph, greater
-reverse gravity
 statue
 limited wish
-dimensional lock
 mind blank
 prismatic wall
 protection from spells
 incendiary cloud
 maze
 planar binding, greater
-summon monster viii
 trap the soul
-discern location
 moment of prescience
 prying eyes, greater
-antipathy
 binding
-charm monster, mass
 demand
-irresistible dance
 power word stun
-symbol of insanity
-sympathy
 clenched fist
 polar ray
-shout, greater
-sunburst
 telekinetic sphere
 scintillating pattern
 screen
 shadow evocation, greater
 clone
-create greater undead
 horrid wilting
-symbol of death
 form of the dragon iii
 giant form ii
 iron body
@@ -1024,14 +604,9 @@ polymorph any object
 temporal stasis
 freedom
 imprisonment
-imprisonment
 mage's disjunction
 prismatic sphere
-gate
-refuge
-summon monster ix
 teleportation circle
-foresight
 dominate monster
 hold monster, mass
 power word kill
@@ -1039,11 +614,6 @@ crushing hand
 meteor swarm
 shades
 weird
-astral projection
-energy drain
-soul bind
 wail of the banshee
-etherealness
-shapechange
 time stop
 wish

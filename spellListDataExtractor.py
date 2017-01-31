@@ -26,10 +26,11 @@ def retrieveSpellNamesFromPaizo():
     spellsAlreadySeen = set()
 
     for spell in spellNames:
+        spell = spell.lower()
         if spell not in spellsAlreadySeen:
             if isinstance(spell, basestring) == True:
-                spell = spell.lower()
                 LIST_OF_SPELLS.write(spell+"\n")
+                print spell
                 spellsAlreadySeen.add(spell)
 
     LIST_OF_SPELLS.close()
