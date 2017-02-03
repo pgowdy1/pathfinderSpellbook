@@ -17,6 +17,5 @@
   },
   "homepage": "https://github.com/pgowdy1/pathfinderSpellbook#readme",
   "dependencies": {
-    "alexa-app": "^2.4.0"
   }
 }

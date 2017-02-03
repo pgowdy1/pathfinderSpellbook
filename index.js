@@ -23,16 +23,17 @@
 */
 
 
-var APP_ID = "amzn1.echo-sdk-ams.app.f95c5360-585f-463c-b41d-1975e84609fc"; // replace with 'amzn1.echo-sdk-ams.app.[MY UNIQUE ID]'
+var APP_ID = "amzn1.echo-sdk-ams.app.f1a8fe54-99c2-46a8-95ba-866590df1550"; // replace with 'amzn1.echo-sdk-ams.app.[MY UNIQUE ID]'
 var AlexaSkill = require('./AlexaSkill');
 
 var Spellbook = function() {
   AlexaSkill.call(this, APP_ID)
 };
 
-exports.myHandler = function(event, context,) {
-  AlexaSkill.execute();
-}
+exports.handler = function(event, context) {
+  var spellBook = new Spellbook();
+  spellBook.execute(event, context);
+};
 
 //Extend AlexaSkill
 Spellbook.prototype = Object.create(AlexaSkill.prototype);
