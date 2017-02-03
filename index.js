@@ -24,12 +24,15 @@
 
 
 var APP_ID = "amzn1.echo-sdk-ams.app.f95c5360-585f-463c-b41d-1975e84609fc"; // replace with 'amzn1.echo-sdk-ams.app.[MY UNIQUE ID]'
-
 var AlexaSkill = require('./AlexaSkill');
 
 var Spellbook = function() {
   AlexaSkill.call(this, APP_ID)
 };
+
+exports.myHandler = function(event, context,) {
+  AlexaSkill.execute();
+}
 
 //Extend AlexaSkill
 Spellbook.prototype = Object.create(AlexaSkill.prototype);
